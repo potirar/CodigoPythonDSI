@@ -7,4 +7,4 @@ print("O total das suas compras é: ", ValorTotal)
 Desconto = ValorTotal*0.2
 print("Seu desconto é: ",Desconto)
 valorPagar = ValorTotal - Desconto
-print("O deu:R$",valorPagar)
+print("O seu valor é:R$",valorPagar)
