@@ -14,4 +14,5 @@ print(len(texto)) #conta a quantidade de caractere
 print(texto.upper()) #escreve tudo em maiúsculo
 print(texto.lower()) #escreve tudo em minúsculo
 print(texto.split()) #escreve em espaço com índice
-print(texto.replace('Sistemas','Internet'))
+print(texto.capitalize()) #escreve a primeira letra maiúscula
+print(texto.replace('Sistemas','Internet')) #TROCA AS PALAVRAS
