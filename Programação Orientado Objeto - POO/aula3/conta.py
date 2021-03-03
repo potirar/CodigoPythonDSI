@@ -40,6 +40,7 @@ class Conta2:
     def saldo(self):
         return f"O seu saldo é R$ {self.__saldo}"
 
+    #Definir valor para o atributo
     @saldo.setter
     def saldo(self,valor):
         if valor < 0:
@@ -47,3 +48,4 @@ class Conta2:
         else:
             self.__saldo += valor
             print("Valor depositado com sucesso!")
+       
